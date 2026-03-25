@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #020617, #020c1b);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* LOGO */
+.logo {
+  width: 90%;
+  max-width: 400px;
+  margin: 30px auto;
+  display: block;
+}
+
+/* BUTTON */
+.btn {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 15px auto;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn i {
+  margin-right: 8px;
+}
+
+/* MAIN */
+.main {
+  background: #22d3ee;
+  color: black;
+}
+
+.main:hover {
+  background: #06b6d4;
+}
+
+/* OUTLINE */
+.outline {
+  border: 2px solid #22d3ee;
+  color: #22d3ee;
+}
+
+.outline:hover {
+  background: #22d3ee;
+  color: black;
+}
+
+/* CARD */
+.card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #0f172a;
+  border: 1px solid #22d3ee33;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 15px;
+  width: 85%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.icon {
+  font-size: 24px;
+  color: #22d3ee;
+}
+
+.label {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 5px 0 0;
+}
+
+/* NOTIF */
+.notif {
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #020617;
+  border: 2px solid #22d3ee;
+  padding: 15px 25px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.4s;
+  box-shadow: 0 0 20px #22d3ee55;
+  z-index: 999;
+}
+
+.notif.show {
+  top: 20px;
+}
+
+.notif i {
+  color: #22d3ee;
+  font-size: 20px;
+}
