@@ -15,3 +15,11 @@ function showNotif() {
     notif.classList.remove("show");
   }, 2500);
 }
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+
+function toggleTheme() {
+  document.body.classList.toggle("light-mode");
+}
