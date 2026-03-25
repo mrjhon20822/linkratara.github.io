@@ -1,5 +1,5 @@
 function copyIP() {
-  const ip = "play.shadowyn.id"; // GANTI IP
+  const ip = "ratarasmp.my..id"; // GANTI IP
 
   navigator.clipboard.writeText(ip).then(() => {
     showNotif();
